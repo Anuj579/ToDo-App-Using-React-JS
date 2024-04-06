@@ -1,6 +1,6 @@
 # Todo App
 
-A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
+A simple Todo app built with React.js, Tailwind CSS, and Daisy UI. 
 
 ## Features
 
@@ -15,7 +15,7 @@ A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/your-username/repo-name.git
 
 2. Navigate to the project directory:
    
@@ -31,4 +31,8 @@ A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
 
    ```bash
    npm run dev
+
+## Live Demo
+
+Check out the live demo of the app [here](https://mytodoapp9.netlify.app).
 
