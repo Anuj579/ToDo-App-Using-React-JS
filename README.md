@@ -1,6 +1,6 @@
 # Todo App
 
-This is a React application for managing your tasks with features like light/dark theme switching, CRUD (Create, Read, Update, Delete) operations on todos, multi-selection, and bulk clearing of selected todos. Built with React, Tailwind CSS, and DaisyUI
+A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
 
 ## Features
 
