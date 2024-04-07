@@ -36,3 +36,7 @@ A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
 
 Check out the live demo of the app [here](https://mytodoapp9.netlify.app).
 
+## Responsive Design
+
+This app is fully responsive and works well on various devices, including phones, tablets, PCs, and laptops.
+
