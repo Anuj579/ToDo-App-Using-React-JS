@@ -15,7 +15,7 @@ A simple Todo app built with React.js, Tailwind CSS, and Daisy UI.
 1. Clone the repository:
 
    ```bash
-   [git clone https://github.com/your-username/repo-name.git](https://github.com/Anuj579/ToDo-App-ReactJS.git)
+   git clone https://github.com/Anuj579/ToDo-App-ReactJS.git
 
 2. Navigate to the project directory:
    
