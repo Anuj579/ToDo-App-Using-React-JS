@@ -2,8 +2,8 @@ import { createContext, useContext } from "react";
 
 export const TodoContext = createContext({
   themeMode: "light",
-  lightTheme: () => {},
-  darkTheme: () => {},
+  lightTheme: () => { },
+  darkTheme: () => { },
   todos: [
     {
       id: 1,
@@ -11,11 +11,11 @@ export const TodoContext = createContext({
       completed: false,
     },
   ],
-  addTodo: (todo) => {},
-  editTodo: (id, todo) => {},
-  removeTodo: (id) => {},
-  markTodo: (id) => {},
-  clearSelected: () => {},
+  addTodo: (todo) => { },
+  editTodo: (id, todo) => { },
+  removeTodo: (id) => { },
+  markTodo: (id) => { },
+  clearSelected: () => { },
 });
 
 export const useTodo = () => {

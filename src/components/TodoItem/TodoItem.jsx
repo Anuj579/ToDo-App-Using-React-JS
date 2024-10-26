@@ -18,9 +18,8 @@ function TodoItem({ todo }) {
   return (
     <>
       <div
-        className={`flex items-center justify-between md:gap-5 gap-2 px-2 rounded-lg transition-all ${
-          todo.completed ? "bg-green-800" : "bg-inherit"
-        }`}
+        className={`flex items-center justify-between md:gap-5 gap-2 px-2 rounded-lg transition-all ${todo.completed ? "bg-green-800" : "bg-inherit"
+          }`}
       >
         <div className="flex gap-2 items-center basis-4/5 ">
           <input
@@ -31,9 +30,8 @@ function TodoItem({ todo }) {
           />
           <input
             type="text"
-            className={`input input-bordered w-full max-w-full border-[#6419E6] focus:border-[#6419E6] input-sm sm:input-md dark:text-white bg-inherit my-6 read-only:border-none focus:outline-none font-bold sm:text-lg read-only:bg-inherit dark:read-only:text-white read-only:cursor-default ${
-              todo.completed ? "read-only:text-white" : "text-black"
-            }`}
+            className={`input input-bordered w-full max-w-full border-[#6419E6] focus:border-[#6419E6] input-sm sm:input-md dark:text-white bg-inherit my-6 read-only:border-none focus:outline-none font-bold sm:text-lg read-only:bg-inherit dark:read-only:text-white read-only:cursor-default ${todo.completed ? "read-only:text-white" : "text-black"
+              }`}
             value={todoMsg}
             onChange={(e) => setTodoMsg(e.target.value)}
             readOnly={!isTodoEditable}
