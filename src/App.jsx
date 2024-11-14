@@ -8,7 +8,7 @@ import TodoItem from "./components/TodoItem/TodoItem";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  const [themeMode, setThemeMode] = useState("light");
+  const [themeMode, setThemeMode] = useState("dark");
   const lightTheme = () => {
     setThemeMode("light");
   };
